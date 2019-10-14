@@ -1,0 +1,14 @@
+{
+  "name": "gatsby-theme-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.21",
+    "@mdx-js/react": "^1.5.1",
+    "@theme-ui/presets": "^0.2.42",
+    "theme-ui": "^0.2.43",
+    "isolated-jsx": "^1.0.0"
+  }
+}

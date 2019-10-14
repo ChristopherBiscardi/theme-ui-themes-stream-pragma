@@ -1,0 +1,11 @@
+{
+  "name": "theme-ui-themes-stream-pragma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
