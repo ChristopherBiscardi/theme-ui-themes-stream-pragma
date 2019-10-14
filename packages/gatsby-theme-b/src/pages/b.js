@@ -1,9 +1,5 @@
 /** @jsx jsx */
-import React from "react";
-import { pragma } from "isolated-jsx";
-import theme from "../theme";
-const MyThemeContext = React.createContext(theme);
-const jsx = pragma(MyThemeContext);
+import { jsx } from "../context";
 
 export default props => (
   <h1

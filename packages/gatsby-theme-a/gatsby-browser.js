@@ -1,7 +1,7 @@
 import React from "react";
-import { ThemeProvider } from "theme-ui";
+import { MyThemeContext } from "./src/context";
 import theme from "./src/theme";
 
 export const wrapRootElement = ({ element }) => (
-  <ThemeProvider theme={theme}>{element}</ThemeProvider>
+  <MyThemeContext.Provider value={theme}>{element}</MyThemeContext.Provider>
 );
