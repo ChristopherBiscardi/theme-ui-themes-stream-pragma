@@ -6,6 +6,7 @@
   "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
   "license": "MIT",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "gatsby-plugins/packages/isolated-theme-ui"
   ]
 }
