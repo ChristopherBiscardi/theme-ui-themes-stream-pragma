@@ -5,7 +5,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: "gatsby-theme-a-mdx",
+        name: "gatsby-theme-b-mdx",
         path: path.resolve(__dirname, "content")
       }
     }

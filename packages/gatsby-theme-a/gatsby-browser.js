@@ -7,7 +7,12 @@ export const wrapRootElement = ({ element }) => (
     value={{
       theme,
       components: {
-        h1: props => jsx("h1", { ...props, sx: { color: "pink" } })
+        h1: props =>
+          jsx(
+            "h1",
+            { ...props, sx: { color: "primary" } },
+            `h1 from theme A` + props.children
+          )
       }
     }}
   >

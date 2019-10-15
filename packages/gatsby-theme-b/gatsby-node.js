@@ -12,7 +12,7 @@ exports.createPages = ({ graphql, actions }) => {
       query loadPagesQuery {
         allFile(
           filter: {
-            sourceInstanceName: { eq: "gatsby-theme-a-mdx" }
+            sourceInstanceName: { eq: "gatsby-theme-b-mdx" }
             ext: { eq: ".mdx" }
           }
         ) {
