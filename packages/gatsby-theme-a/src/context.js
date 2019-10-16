@@ -1,18 +1,14 @@
 /** @jsx jsx */
 import React from "react";
 
-import { pragma } from "isolated-theme-ui/pragma";
+import { jsxPragma, mdxPragma } from "isolated-theme-ui";
 import theme from "./theme";
 
 export const MyThemeContext = React.createContext({
   theme,
-  components: {
-    h1: props => (
-      <h1 {...props} sx={{ color: "primary" }}>
-        From a <span>{props.children}</span>
-      </h1>
-    )
-  }
+  components: {}
 });
 
-export const jsx = pragma(MyThemeContext);
+// our custom pragmas, bootstrapped with our context
+export const jsx = jsxPragma(MyThemeContext);
+export const mdx = mdxPragma(MyThemeContext);

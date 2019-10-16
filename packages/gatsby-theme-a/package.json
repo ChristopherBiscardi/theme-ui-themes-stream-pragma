@@ -8,10 +8,10 @@
     "@emotion/core": "^10.0.21",
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
-    "@theme-ui/presets": "^0.2.42",
+    "@theme-ui/presets": "^0.2.44",
     "gatsby-plugin-mdx": "^1.0.52",
     "gatsby-source-filesystem": "^2.1.33",
-    "isolated-theme-ui": "^1.0.0",
-    "theme-ui": "^0.2.43"
+    "isolated-theme-ui": "^1.0.1",
+    "theme-ui": "^0.2.44"
   }
 }
